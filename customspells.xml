@@ -8,7 +8,7 @@
 <element name="Yakhaf’s Dreadful Call" type="Spell" source="Pumpkin Head's Spell Emporium" id="ID_CUSTOM_SPELL_YAKHAFS_DREADFUL_CALL">
 		<supports>Warlock,Paladin,Bard</supports>
 		<description>
-			<p>Muttering an incomprehensible incantation, you weaponize your enemies’ damaged psyches and turn it against them. Make a ranged spell attack against the target. On a hit, the target takes 1d4 necrotic (psychic)? damage. Additionally, you can add 1d4 damage for every creature that is charmed or frightened by you at the time of the attack. Charmed or frightened creatures used in this way make a Wisdom saving throw at advantage, ending the effect on a success.</p>
+			<p>Muttering an incomprehensible incantation, you weaponize your enemies’ damaged psyches. Make a ranged spell attack against the target. On a hit, the target takes 1d4 psychic damage. Additionally, you can add 1d4 damage for every creature that is charmed or frightened by you at the time of the attack. Charmed or frightened creatures used in this way make a Wisdom saving throw at advantage, ending the effect on a success.</p>
 			<p class="indent">At 5th level, the spells damage and the damage per charmed or frightened enemy used to boost the spell increase by 1d4 (2d4 and 2d4). Both damage rolls increase by 1d4 at 11th level (3d4 and 3d4) and again at 17th level (4d4 and 4d4). </p>
 		</description>
 		<setters>
