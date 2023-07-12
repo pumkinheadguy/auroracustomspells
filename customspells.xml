@@ -1,1 +1,29 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="customspells.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dms-guild/mirts-undermountain-survival-guide/spells.xml" />
+		</update>
+	</info>
+<element name="Yakhaf’s Dreadful Call" type="Spell" source="Mirt’s Undermountain Survival Guide" id="ID_CUSTOM_SPELL_YAKHAFS_DREADFUL_CALL">
+		<supports>Druid,Wizard</supports>
+		<description>
+			<p>Muttering an incomprehensible incantation, you weaponize your enemies’ damaged psyches and turn it against them. Make a ranged spell attack against the target. On a hit, the target takes 1d4 necrotic (psychic)? damage. Additionally, you can add 1d4 damage for every creature that is charmed or frightened by you at the time of the attack. Charmed or frightened creatures used in this way make a Wisdom saving throw at advantage, ending the effect on a success.</p>
+			<p class="indent">At 5th level, the spells damage and the damage per charmed or frightened enemy used to boost the spell increase by 1d4 (2d4 and 2d4). Both damage rolls increase by 1d4 at 11th level (3d4 and 3d4) and again at 17th level (4d4 and 4d4). </p>
+		</description>
+		<setters>
+			<set name="keywords">charm</set>
+			<set name="level">0</set>
+			<set name="school">Enchantment</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">A stalk of straw and a drop of blood</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+</elements>
