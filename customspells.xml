@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="customspells.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/dms-guild/mirts-undermountain-survival-guide/spells.xml" />
+			<file name="customspells.xml" url="https://github.com/pumkinheadguy/auroracustomspells/blob/main/customspells.xml" />
 		</update>
 	</info>
 <element name="Yakhaf’s Dreadful Call" type="Spell" source="Mirt’s Undermountain Survival Guide" id="ID_CUSTOM_SPELL_YAKHAFS_DREADFUL_CALL">
